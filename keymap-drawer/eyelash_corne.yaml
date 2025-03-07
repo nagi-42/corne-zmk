@@ -77,7 +77,7 @@ layers:
   - '6'
   - '0'
   - '&td0'
-  - {t: ONISI, h: toggle}
+  - {t: SYMBOL, h: toggle}
   - '&td0'
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
