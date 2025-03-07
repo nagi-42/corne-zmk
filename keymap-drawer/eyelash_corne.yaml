@@ -100,7 +100,7 @@ layers:
   ONISI:
   - $$mdi:keyboard-esc$$
   - Q
-  - '@'
+  - L
   - U
   - {t: ., s: '>'}
   - {t: ',', s: <}
@@ -108,7 +108,7 @@ layers:
   - F
   - W
   - R
-  - (
+  - Y
   - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
@@ -154,12 +154,12 @@ layers:
   - .
   - {t: ',', s: <}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F
-  - W
-  - R
-  - Y
-  - P
-  - {t: \, s: '|'}
+  - '!'
+  - (
+  - )
+  - $
+  - '&'
+  - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
   - E
   - I
@@ -169,12 +169,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - K
-  - T
-  - N
-  - S
-  - H
-  - {t: '-', s: _}
+  - '@'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '%'
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -183,11 +183,11 @@ layers:
   - '*'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - G
-  - D
-  - M
-  - J
-  - B
+  - '#'
+  - '{'
+  - '}'
+  - ^
+  - {t: /, s: '?'}
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-command$$
   - {t: ., h: NUMBER, s: '>'}
