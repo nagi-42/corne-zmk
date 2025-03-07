@@ -190,8 +190,8 @@ layers:
   - B
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-command$$
-  - NUMBER
+  - {t: ., h: NUMBER, s: '>'}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - SYMBOL
+  - {t: ',', h: SYMBOL, s: <}
   - $$mdi:apple-keyboard-option$$
