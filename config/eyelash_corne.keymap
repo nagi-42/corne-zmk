@@ -3,7 +3,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -65,7 +64,7 @@
             display-name = "NUMBER";
             bindings = <
 &tog 0  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                &mmv MOVE_UP                     &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp BSPC
-&tog 3  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &td0
+&tog 2  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &td0
 &tog 2  &td0          &td0          &trans        &trans        &td0          &td0                    &mmv MOVE_DOWN                   &td0       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &td0          &td0
                                     &trans        &trans        &trans                                                                 &kp INS    &kp DEL       &trans
             >;
@@ -74,6 +73,19 @@
         };
 
         ONISI {
+            display-name = "SYMBOL";
+            bindings = <
+&kp ESCAPE        &kp Q  &kp AT  &kp U          &kp DOT  &kp COMMA                                   &mmv MOVE_UP                     &kp F    &kp W  &kp R          &kp LPAR  &kp P  &kp BACKSLASH
+&kp LEFT_CONTROL  &kp E  &kp I   &kp A          &kp O    &kp SINGLE_QUOTE            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp K    &kp T  &kp N          &kp S     &kp H  &kp MINUS
+&kp LEFT_SHIFT    &kp Z  &kp X   &kp C          &kp V    &kp ASTERISK      &trans                    &mmv MOVE_DOWN                   &kp G    &kp D  &kp M          &kp J     &kp B  &kp EQUAL
+                                 &kp LEFT_META  &mo 1    &kp SPACE                                                                    &kp RET  &mo 3  &kp RIGHT_ALT
+            >;
+
+            sensor-bindings = <&inc_dec_kp K_VOLUME_DOWN C_VOLUME_UP>;
+            label = "ONISI";
+        };
+
+        SYMBOL {
             display-name = "ONISI";
             bindings = <
 &kp ESCAPE        &kp Q  &kp L  &kp U         &kp PERIOD  &kp COMMA                                       &mmv MOVE_UP                     &kp F      &kp W        &kp R          &kp Y  &kp P  &kp BACKSLASH
@@ -83,18 +95,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-        };
-
-        raise_layer {
-            display-name = "SYMBOL";
-            bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &mo 1      &kp SPACE                                                             &kp RET    &trans     &trans
-            >;
-
-            sensor-bindings = <&scroll_encoder>;
+            label = "SYMBOL";
         };
     };
 };
