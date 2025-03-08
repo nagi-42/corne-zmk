@@ -88,10 +88,10 @@
         SYMBOL {
             display-name = "SYMBOL";
             bindings = <
-&kp ESCAPE        &kp Q  &kp L  &kp U         &kp PERIOD  &kp COMMA                                       &mmv MOVE_UP                     &kp EXCL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND  &kp GRAVE
-&kp LEFT_CONTROL  &kp E  &kp I  &kp A         &kp O       &kp SINGLE_QUOTE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V       &kp ASTRK         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp SLASH      &kp EQUAL
-                                &kp LEFT_GUI  &trans      &kp SPACE                                                                        &kp ENTER  &trans                &kp RIGHT_ALT
+&kp ESCAPE        &kp EXCL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp GRAVE                                       &mmv MOVE_UP                     &kp EXCL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND  &kp GRAVE
+&kp LEFT_CONTROL  &kp AT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SINGLE_QUOTE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp HASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp EQUAL         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp SLASH      &kp EQUAL
+                                                  &kp LEFT_GUI           &trans       &kp SPACE                                                                        &kp ENTER  &trans                &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
