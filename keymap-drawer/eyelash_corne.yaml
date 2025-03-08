@@ -62,7 +62,7 @@ layers:
   - '3'
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: SYMBOL, h: toggle}
+  - {t: ONISI, h: toggle}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -95,7 +95,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - $$mdi:keyboard-esc$$
@@ -141,10 +141,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-command$$
-  - NUMBER
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: NUMBER, type: held}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
   ONISI:
   - $$mdi:keyboard-esc$$
