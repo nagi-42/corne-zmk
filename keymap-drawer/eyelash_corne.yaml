@@ -148,11 +148,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - $$mdi:keyboard-esc$$
-  - Q
-  - L
-  - U
-  - .
-  - {t: ',', s: <}
+  - '!'
+  - (
+  - )
+  - $
+  - {t: '`', s: '~'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '!'
   - (
@@ -161,10 +161,10 @@ layers:
   - '&'
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
-  - E
-  - I
-  - A
-  - O
+  - '@'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '%'
   - {t: '''', s: '"'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -176,11 +176,11 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - '*'
+  - '#'
+  - '{'
+  - '}'
+  - ^
+  - {t: '=', s: +}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '#'
