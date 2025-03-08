@@ -61,7 +61,7 @@
         };
 
         ONISI {
-            display-name = "SYMBOL";
+            display-name = "ONISI";
             bindings = <
 &kp ESCAPE        &kp Q  &kp L  &kp U          &kp DOT  &kp COMMA                                   &mmv MOVE_UP                     &kp F    &kp W  &kp R          &kp Y  &kp P  &kp BACKSLASH
 &kp LEFT_CONTROL  &kp E  &kp I  &kp A          &kp O    &kp SINGLE_QUOTE            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp K    &kp T  &kp N          &kp S  &kp H  &kp MINUS
