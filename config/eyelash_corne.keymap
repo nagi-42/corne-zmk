@@ -54,7 +54,7 @@
 &kp ESCAPE        &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp LEFT_CONTROL  &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                &kp LGUI  &mo 2  &lt 1 SPACE                                               &lt 1 ENTER  &mo 3  &kp RALT
+                                &kp LGUI  &mo 2  &lt 3 SPACE                                               &lt 3 ENTER  &mo 3  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -88,10 +88,10 @@
         SYMBOL {
             display-name = "SYMBOL";
             bindings = <
-&kp ESCAPE        &kp EXCL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp GRAVE                                       &mmv MOVE_UP                     &kp EXCL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND  &kp GRAVE
-&kp LEFT_CONTROL  &kp AT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SINGLE_QUOTE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT  &kp SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp HASH  &kp LESS_THAN         &kp GREATER_THAN       &kp CARET    &kp EQUAL         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp SLASH      &kp EQUAL
-                                                  &kp LEFT_GUI           &trans       &kp SPACE                                                                        &kp ENTER  &trans                &kp RIGHT_ALT
+&kp ESCAPE        &kp EXCL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE       &kp DOLLAR                                &mmv MOVE_UP                     &trans     &kp SLASH  &kp BACKSLASH     &trans  &trans  &trans
+&kp LEFT_CONTROL  &kp AT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp APOSTROPHE  &kp EQUAL                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans     &kp SEMI   &kp SINGLE_QUOTE  &trans  &trans  &trans
+&kp LEFT_SHIFT    &kp HASH  &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT     &kp CARET   &kp C_MUTE                    &mmv MOVE_DOWN                   &trans     &trans     &trans            &trans  &trans  &trans
+                                                  &kp LEFT_GUI           &trans          &kp SPACE                                                                  &kp ENTER  &trans     &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
