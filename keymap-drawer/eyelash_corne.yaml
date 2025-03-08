@@ -44,8 +44,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: ONISI}
-  - {t: '$$mdi:keyboard-return$$', h: ONISI}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   ONISI:
@@ -93,8 +93,8 @@ layers:
   - {t: '=', s: +}
   - LEFT META
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:keyboard-return$$', type: held alternate}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   NUMBER:
@@ -142,8 +142,8 @@ layers:
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
-  - {t: INS, type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - INS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
@@ -151,47 +151,47 @@ layers:
   - '!'
   - (
   - )
-  - $
   - {t: '`', s: '~'}
+  - $
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '!'
-  - (
-  - )
-  - $
-  - '&'
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
+  - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - '@'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '%'
-  - {t: '''', s: '"'}
+  - <
+  - {t: '=', s: +}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '@'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - '%'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - '#'
   - <
   - '>'
+  - '%'
   - ^
-  - {t: '=', s: +}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '#'
-  - '{'
-  - '}'
-  - ^
-  - {t: /, s: '?'}
-  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held alternate}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - {type: held}
+  - {type: held alternate}
   - $$mdi:apple-keyboard-option$$
