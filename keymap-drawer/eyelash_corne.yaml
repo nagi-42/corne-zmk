@@ -77,7 +77,7 @@ layers:
   - '6'
   - '0'
   - '&td0'
-  - {t: SYMBOL, h: toggle}
+  - {t: ONISI, h: toggle}
   - '&td0'
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,8 +190,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-command$$
-  - {t: ., h: NUMBER, s: '>'}
+  - NUMBER
   - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - {t: ',', h: SYMBOL, s: <, type: held}
+  - {t: NUMBER, type: held}
   - $$mdi:apple-keyboard-option$$
