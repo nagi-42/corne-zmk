@@ -63,7 +63,7 @@ layers:
   - '3'
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: SYMBOL, h: toggle}
+  - {t: ONISI, h: toggle}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
