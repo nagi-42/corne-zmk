@@ -54,35 +54,35 @@
 &kp ESCAPE        &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp LEFT_CONTROL  &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                &kp LGUI  &mo 2  &lt 3 SPACE                                               &lt 3 ENTER  &mo 3  &kp RALT
+                                &kp LGUI  &mo 1  &lt 0 SPACE                                               &lt 0 ENTER  &mo 0  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        };
-
-        ONISI {
-            display-name = "ONISI";
-            bindings = <
-&kp ESCAPE        &kp Q  &kp L  &kp U          &kp LC(COMMA)  &kp DOT                                     &mmv MOVE_UP                     &kp F    &kp W  &kp R          &kp Y  &kp P  &kp BACKSLASH
-&kp LEFT_CONTROL  &kp E  &kp I  &kp A          &kp O          &kp SINGLE_QUOTE            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp K    &kp T  &kp N          &kp S  &kp H  &kp MINUS
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C          &kp V          &kp ASTERISK      &trans                    &mmv MOVE_DOWN                   &kp G    &kp D  &kp M          &kp J  &kp B  &kp EQUAL
-                                &kp LEFT_META  &mo 2          &kp SPACE                                                                    &kp RET  &mo 3  &kp RIGHT_ALT
-            >;
-
-            sensor-bindings = <&inc_dec_kp K_VOLUME_DOWN C_VOLUME_UP>;
-            label = "ONISI";
         };
 
         NUMBER {
             display-name = "NUMBER";
             bindings = <
 &to 0   &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                &mmv MOVE_UP                     &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp BSPC
-&to 1   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &td0
+&to 3   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &td0
 &trans  &td0          &td0          &trans        &trans        &td0          &td0                    &mmv MOVE_DOWN                   &td0       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &td0          &td0
                                     &trans        &trans        &trans                                                                 &kp INS    &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        ONISI {
+            display-name = "ONISI";
+            bindings = <
+&kp ESCAPE        &kp Q  &kp L  &kp U          &kp LC(COMMA)  &kp DOT                                     &kp UP_ARROW                     &kp F    &kp W  &kp R          &kp Y  &kp P  &kp BACKSLASH
+&kp LEFT_CONTROL  &kp E  &kp I  &kp A          &kp O          &kp SINGLE_QUOTE            &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp K    &kp T  &kp N          &kp S  &kp H  &kp MINUS
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C          &kp V          &kp ASTERISK      &trans                    &kp DOWN_ARROW                   &kp G    &kp D  &kp M          &kp J  &kp B  &kp EQUAL
+                                &kp LEFT_META  &mo 1          &kp SPACE                                                                    &kp RET  &mo 0  &kp RIGHT_ALT
+            >;
+
+            sensor-bindings = <&inc_dec_kp K_VOLUME_DOWN C_VOLUME_UP>;
+            label = "ONISI";
         };
 
         SYMBOL {
