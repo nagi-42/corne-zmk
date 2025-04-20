@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-esc$$
@@ -44,58 +45,9 @@ layers:
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
-  - SYMBOL
-  - $$mdi:apple-keyboard-option$$
-  ONISI:
-  - $$mdi:keyboard-esc$$
-  - Q
-  - L
-  - U
-  - {t: 'Ctl+,', s: Ctl+<}
-  - {t: ., s: '>'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F
-  - W
-  - R
-  - Y
-  - P
-  - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-control$$
-  - E
-  - I
-  - A
-  - O
-  - {t: '''', s: '"'}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - K
-  - T
-  - N
-  - S
-  - H
-  - {t: '-', s: _}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - G
-  - D
-  - M
-  - J
-  - B
-  - {t: '=', s: +}
-  - LEFT META
-  - NUMBER
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - SYMBOL
+  - {t: '$$mdi:keyboard-space$$', h: QWERTY}
+  - {t: '$$mdi:keyboard-return$$', h: QWERTY}
+  - QWERTY
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: QWERTY, h: toggle}
@@ -111,7 +63,7 @@ layers:
   - '3'
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ONISI, h: toggle}
+  - {t: SYMBOL, h: toggle}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -146,6 +98,55 @@ layers:
   - INS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  ONISI:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - L
+  - U
+  - {t: 'Ctl+,', s: Ctl+<}
+  - {t: ., s: '>'}
+  - $$mdi:arrow-up-bold$$
+  - F
+  - W
+  - R
+  - Y
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-control$$
+  - E
+  - I
+  - A
+  - O
+  - {t: '''', s: '"'}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - K
+  - T
+  - N
+  - S
+  - H
+  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - '*'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
+  - G
+  - D
+  - M
+  - J
+  - B
+  - {t: '=', s: +}
+  - LEFT META
+  - NUMBER
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - QWERTY
+  - $$mdi:apple-keyboard-option$$
   SYMBOL:
   - $$mdi:keyboard-esc$$
   - '!'
@@ -191,7 +192,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - {type: held alternate}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
