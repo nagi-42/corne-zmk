@@ -64,7 +64,7 @@
             display-name = "NUMBER";
             bindings = <
 &to 0   &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                &mmv MOVE_UP                     &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp BSPC
-&to 3   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &td0
+&to 2   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &td0
 &trans  &td0          &td0          &trans        &trans        &td0          &td0                    &mmv MOVE_DOWN                   &td0       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &td0          &td0
                                     &trans        &trans        &trans                                                                 &kp INS    &trans        &trans
             >;
