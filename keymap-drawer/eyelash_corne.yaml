@@ -128,7 +128,7 @@ layers:
   - '0'
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&td0'
+  - $$mdi:bluetooth-off$$
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
