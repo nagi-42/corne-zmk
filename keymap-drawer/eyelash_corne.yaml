@@ -54,9 +54,9 @@ layers:
   - Q
   - L
   - U
-  - {t: 'Ctl+,', s: Ctl+<}
+  - {t: ',', s: <}
   - {t: ., s: '>'}
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F
   - W
   - R
@@ -69,9 +69,9 @@ layers:
   - A
   - O
   - {t: '''', s: '"'}
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - K
   - T
   - N
@@ -85,7 +85,7 @@ layers:
   - V
   - '*'
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - G
   - D
   - M
